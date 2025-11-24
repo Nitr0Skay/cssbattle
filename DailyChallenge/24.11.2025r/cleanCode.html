@@ -1,0 +1,46 @@
+<div> 
+<style>
+  body {
+    background-color: #D95362;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div {
+    width: 60px;
+    height: 90px;
+    margin-top: 10px;
+    background: #FFF9C0;
+    box-shadow: inset 0 10px 0 #D95362;
+  }
+  div::after {
+    content: '';
+    display: block;
+    width: 400px;
+    height: 20px;
+    background: inherit;
+    position: absolute;
+    left: 0;
+    top: 200px;
+  }
+  div::before {
+    content: '';
+    display: block;
+    background: #D95362;
+    width: 20px;
+    height: 20px;
+    border: 20px #FFF9C0 solid;
+    border-radius: 50%;
+    position: absolute;
+    top: 80px;
+    z-index: -1;
+  }
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
