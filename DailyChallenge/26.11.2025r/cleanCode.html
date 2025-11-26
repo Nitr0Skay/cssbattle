@@ -1,0 +1,59 @@
+<div id="leftLine"></div>
+<div id="leftCrossLine"></div>
+<div id="ring"></div>     
+<div id="rightLine"></div>
+<div id=rightCrossLine></div>
+<style>
+  body {
+    background-color: #62306D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #ring {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 100px solid #FFFFFF;
+    background: #62306D;
+    position: relative;
+    top: 20px;
+    clip-path: inset(0 0 50% 0);
+  }
+  #leftLine, #leftCrossLine, #rightLine, #rightCrossLine {
+    width: 64px;
+    height: 20px;
+    position: absolute;
+    background-color: #FFFFFF;
+  }
+  #leftLine, #rightLine {
+    top: 170px;
+  }
+  #leftLine {
+    left: 0;
+  }
+  #rightLine {
+    right: 0;
+  }
+  #leftCrossLine, #rightCrossLine {
+    top: 200px;
+    width: 150px;
+    height: 20px;
+  }
+  #leftCrossLine {
+    left: -39px;
+    transform: rotate(-52deg);
+  }
+  #rightCrossLine {
+    right: -39px;
+    transform: rotate(52deg);
+  }
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
