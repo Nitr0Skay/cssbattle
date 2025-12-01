@@ -1,0 +1,40 @@
+<dl></dl>
+<i r></i>
+<style>
+  body {
+    background-color: #2F434E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  dl {
+    width: 100px;
+    height: 100px;
+    background: #F8B140;
+  }
+  dl::after, dl::before {
+    content: '';
+    display: flex;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    border-radius: 50%;
+    left: 135px;
+  }
+  dl::before {
+    background-color: F8B140;
+    top: 10px;
+  }
+  dl::after {
+    background-color: CF6939;
+    top: 160px;
+    z-index:-1;
+  }
+  [r] {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background-color: F8B140;
+    position: absolute;
+    border: 10px solid #CF6939;
+    border-radius: 50%

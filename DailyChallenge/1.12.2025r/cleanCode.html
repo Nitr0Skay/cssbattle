@@ -1,0 +1,50 @@
+<div></div>
+<i id="ring"></i>
+<style>
+  body {
+    background-color: #2F434E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background: #F8B140;
+  }
+  div::after, div::before {
+    content: '';
+    display: flex;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    border-radius: 50%;
+    left: 135px;
+  }
+  div::before {
+    background-color: F8B140;
+    top: 10px;
+  }
+  div::after {
+    background-color: CF6939;
+    top: 160px;
+    z-index:-1;
+  }
+  #ring {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background-color: F8B140;
+    position: absolute;
+    border: 10px solid #CF6939;
+    border-radius: 50%;
+  }
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
