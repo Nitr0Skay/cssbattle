@@ -1,0 +1,55 @@
+<div id="walec">
+  <div id="osRight"></div>
+  <div id="walek"></div>
+  <div id="osLeft"></div>
+</div>
+<style>
+  body {
+    background-color: #63B476;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div {
+    position: absolute;
+  }
+  #osLeft, #osRight {
+    background-color: white;
+    height: 30px;
+    border-radius: 15px;
+    width: 95px;
+    top: -15px;
+  }
+  #osLeft {
+    left: -120px;
+  }
+  #walek {
+    background-color: #000E37;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: -50px;
+    left: -90px;
+  }
+  #walek::after {
+    content: '';
+    display: flex;
+    position: absolute;
+    background-color: #243D83;
+    height: 100px;
+    width: 180px;
+    border-radius: 50px;
+    z-index: -1;
+  }
+  #osRight {
+    left: 25;
+    z-index: -2;
+  }
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+<!-- IMPORTANT: remove the comments before submitting -->  
